@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8435E3621EE818810069B33B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3611EE818810069B33B /* main.m */; };
+		8435E3651EE818810069B33B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3641EE818810069B33B /* AppDelegate.m */; };
+		8435E3681EE818810069B33B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3671EE818810069B33B /* ViewController.m */; };
+		8435E36B1EE818810069B33B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8435E3691EE818810069B33B /* Main.storyboard */; };
+		8435E36D1EE818810069B33B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8435E36C1EE818810069B33B /* Assets.xcassets */; };
+		8435E3701EE818810069B33B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8435E36E1EE818810069B33B /* LaunchScreen.storyboard */; };
+		8435E37D1EE81E370069B33B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8435E3791EE81E370069B33B /* Bolts.framework */; };
+		8435E37E1EE81E370069B33B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8435E37A1EE81E370069B33B /* FBSDKCoreKit.framework */; };
+		8435E37F1EE81E370069B33B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8435E37B1EE81E370069B33B /* FBSDKLoginKit.framework */; };
+		8435E3801EE81E370069B33B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8435E37C1EE81E370069B33B /* FBSDKShareKit.framework */; };
+		8435E39B1EE8266A0069B33B /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3831EE8266A0069B33B /* MASCompositeConstraint.m */; };
+		8435E39C1EE8266A0069B33B /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3851EE8266A0069B33B /* MASConstraint.m */; };
+		8435E39D1EE8266A0069B33B /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3881EE8266A0069B33B /* MASConstraintMaker.m */; };
+		8435E39E1EE8266A0069B33B /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E38A1EE8266A0069B33B /* MASLayoutConstraint.m */; };
+		8435E39F1EE8266A0069B33B /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E38E1EE8266A0069B33B /* MASViewAttribute.m */; };
+		8435E3A01EE8266A0069B33B /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3901EE8266A0069B33B /* MASViewConstraint.m */; };
+		8435E3A11EE8266A0069B33B /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3921EE8266A0069B33B /* NSArray+MASAdditions.m */; };
+		8435E3A21EE8266A0069B33B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3951EE8266A0069B33B /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		8435E3A31EE8266A0069B33B /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3971EE8266A0069B33B /* View+MASAdditions.m */; };
+		8435E3A41EE8266A0069B33B /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E39A1EE8266A0069B33B /* ViewController+MASAdditions.m */; };
+		8435E3AC1EE82DDE0069B33B /* VKVMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3AB1EE82DDE0069B33B /* VKVMainViewController.m */; };
+		8435E3AF1EE82E310069B33B /* ADBFaceBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3AE1EE82E310069B33B /* ADBFaceBookViewController.m */; };
+		8435E3B51EE82ECD0069B33B /* ADBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3B21EE82ECD0069B33B /* ADBCell.m */; };
+		8435E3B61EE82ECD0069B33B /* ADBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3B41EE82ECD0069B33B /* ADBImage.m */; };
+		8435E3BA1EE82F750069B33B /* DetailInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E3B91EE82F750069B33B /* DetailInformation.m */; };
+		8435E5C91EE830B00069B33B /* ADBContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E5C81EE830B00069B33B /* ADBContact.m */; };
+		8435E5CC1EE830B70069B33B /* ADBContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E5CB1EE830B70069B33B /* ADBContactList.m */; };
+		8435E5D11EE8315C0069B33B /* ADBJsonDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E5D01EE8315C0069B33B /* ADBJsonDataBase.m */; };
+		8435E5D41EE831680069B33B /* ADBPathFileJsonDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E5D31EE831680069B33B /* ADBPathFileJsonDataBase.m */; };
+		8435E5D81EE831990069B33B /* ADBAddressBookDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E5D71EE831990069B33B /* ADBAddressBookDataBase.m */; };
+		8435E5DD1EE831F60069B33B /* ADBVkontakteDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E5DC1EE831F60069B33B /* ADBVkontakteDataBase.m */; };
+		8435E5E01EE832090069B33B /* ADBFacebookDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E5DF1EE832090069B33B /* ADBFacebookDataBase.m */; };
+		8435E5E21EE8321A0069B33B /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 8435E5E11EE8321A0069B33B /* mock.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8435E35D1EE818810069B33B /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8435E3611EE818810069B33B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8435E3631EE818810069B33B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8435E3641EE818810069B33B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8435E3661EE818810069B33B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8435E3671EE818810069B33B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8435E36A1EE818810069B33B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8435E36C1EE818810069B33B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8435E36F1EE818810069B33B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8435E3711EE818810069B33B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8435E3791EE81E370069B33B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		8435E37A1EE81E370069B33B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		8435E37B1EE81E370069B33B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		8435E37C1EE81E370069B33B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		8435E3821EE8266A0069B33B /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		8435E3831EE8266A0069B33B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		8435E3841EE8266A0069B33B /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		8435E3851EE8266A0069B33B /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		8435E3861EE8266A0069B33B /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		8435E3871EE8266A0069B33B /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		8435E3881EE8266A0069B33B /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		8435E3891EE8266A0069B33B /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		8435E38A1EE8266A0069B33B /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		8435E38B1EE8266A0069B33B /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		8435E38C1EE8266A0069B33B /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		8435E38D1EE8266A0069B33B /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		8435E38E1EE8266A0069B33B /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		8435E38F1EE8266A0069B33B /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		8435E3901EE8266A0069B33B /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		8435E3911EE8266A0069B33B /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		8435E3921EE8266A0069B33B /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		8435E3931EE8266A0069B33B /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8435E3941EE8266A0069B33B /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		8435E3951EE8266A0069B33B /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		8435E3961EE8266A0069B33B /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		8435E3971EE8266A0069B33B /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		8435E3981EE8266A0069B33B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8435E3991EE8266A0069B33B /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		8435E39A1EE8266A0069B33B /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		8435E3A81EE827DD0069B33B /* ADBViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADBViewManager.h; sourceTree = "<group>"; };
+		8435E3AA1EE82DDE0069B33B /* VKVMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKVMainViewController.h; sourceTree = "<group>"; };
+		8435E3AB1EE82DDE0069B33B /* VKVMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKVMainViewController.m; sourceTree = "<group>"; };
+		8435E3AD1EE82E310069B33B /* ADBFaceBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBFaceBookViewController.h; sourceTree = "<group>"; };
+		8435E3AE1EE82E310069B33B /* ADBFaceBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBFaceBookViewController.m; sourceTree = "<group>"; };
+		8435E3B11EE82ECD0069B33B /* ADBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBCell.h; sourceTree = "<group>"; };
+		8435E3B21EE82ECD0069B33B /* ADBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBCell.m; sourceTree = "<group>"; };
+		8435E3B31EE82ECD0069B33B /* ADBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBImage.h; sourceTree = "<group>"; };
+		8435E3B41EE82ECD0069B33B /* ADBImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBImage.m; sourceTree = "<group>"; };
+		8435E3B81EE82F750069B33B /* DetailInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailInformation.h; sourceTree = "<group>"; };
+		8435E3B91EE82F750069B33B /* DetailInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailInformation.m; sourceTree = "<group>"; };
+		8435E5C71EE830B00069B33B /* ADBContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBContact.h; sourceTree = "<group>"; };
+		8435E5C81EE830B00069B33B /* ADBContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBContact.m; sourceTree = "<group>"; };
+		8435E5CA1EE830B70069B33B /* ADBContactList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBContactList.h; sourceTree = "<group>"; };
+		8435E5CB1EE830B70069B33B /* ADBContactList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBContactList.m; sourceTree = "<group>"; };
+		8435E5CD1EE830E60069B33B /* ADBDataBaseDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADBDataBaseDriver.h; sourceTree = "<group>"; };
+		8435E5CF1EE8315C0069B33B /* ADBJsonDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBJsonDataBase.h; sourceTree = "<group>"; };
+		8435E5D01EE8315C0069B33B /* ADBJsonDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBJsonDataBase.m; sourceTree = "<group>"; };
+		8435E5D21EE831680069B33B /* ADBPathFileJsonDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBPathFileJsonDataBase.h; sourceTree = "<group>"; };
+		8435E5D31EE831680069B33B /* ADBPathFileJsonDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBPathFileJsonDataBase.m; sourceTree = "<group>"; };
+		8435E5D61EE831990069B33B /* ADBAddressBookDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBAddressBookDataBase.h; sourceTree = "<group>"; };
+		8435E5D71EE831990069B33B /* ADBAddressBookDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBAddressBookDataBase.m; sourceTree = "<group>"; };
+		8435E5DB1EE831F60069B33B /* ADBVkontakteDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBVkontakteDataBase.h; sourceTree = "<group>"; };
+		8435E5DC1EE831F60069B33B /* ADBVkontakteDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBVkontakteDataBase.m; sourceTree = "<group>"; };
+		8435E5DE1EE832090069B33B /* ADBFacebookDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBFacebookDataBase.h; sourceTree = "<group>"; };
+		8435E5DF1EE832090069B33B /* ADBFacebookDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBFacebookDataBase.m; sourceTree = "<group>"; };
+		8435E5E11EE8321A0069B33B /* mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8435E35A1EE818810069B33B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8435E3801EE81E370069B33B /* FBSDKShareKit.framework in Frameworks */,
+				8435E37D1EE81E370069B33B /* Bolts.framework in Frameworks */,
+				8435E37E1EE81E370069B33B /* FBSDKCoreKit.framework in Frameworks */,
+				8435E37F1EE81E370069B33B /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8435E3541EE818810069B33B = {
+			isa = PBXGroup;
+			children = (
+				8435E3781EE81E020069B33B /* Frameworks */,
+				8435E35F1EE818810069B33B /* AddressBook */,
+				8435E35E1EE818810069B33B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8435E35E1EE818810069B33B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8435E35D1EE818810069B33B /* AddressBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8435E35F1EE818810069B33B /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				8435E5C31EE830630069B33B /* Model */,
+				8435E3A61EE8276A0069B33B /* Views & Controllers */,
+				8435E3691EE818810069B33B /* Main.storyboard */,
+				8435E36C1EE818810069B33B /* Assets.xcassets */,
+				8435E36E1EE818810069B33B /* LaunchScreen.storyboard */,
+				8435E3711EE818810069B33B /* Info.plist */,
+				8435E3601EE818810069B33B /* Supporting Files */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		8435E3601EE818810069B33B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8435E3611EE818810069B33B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8435E3781EE81E020069B33B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8435E3811EE826490069B33B /* Masonry */,
+				8435E3791EE81E370069B33B /* Bolts.framework */,
+				8435E37A1EE81E370069B33B /* FBSDKCoreKit.framework */,
+				8435E37B1EE81E370069B33B /* FBSDKLoginKit.framework */,
+				8435E37C1EE81E370069B33B /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8435E3811EE826490069B33B /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				8435E3821EE8266A0069B33B /* MASCompositeConstraint.h */,
+				8435E3831EE8266A0069B33B /* MASCompositeConstraint.m */,
+				8435E3841EE8266A0069B33B /* MASConstraint.h */,
+				8435E3851EE8266A0069B33B /* MASConstraint.m */,
+				8435E3861EE8266A0069B33B /* MASConstraint+Private.h */,
+				8435E3871EE8266A0069B33B /* MASConstraintMaker.h */,
+				8435E3881EE8266A0069B33B /* MASConstraintMaker.m */,
+				8435E3891EE8266A0069B33B /* MASLayoutConstraint.h */,
+				8435E38A1EE8266A0069B33B /* MASLayoutConstraint.m */,
+				8435E38B1EE8266A0069B33B /* Masonry.h */,
+				8435E38C1EE8266A0069B33B /* MASUtilities.h */,
+				8435E38D1EE8266A0069B33B /* MASViewAttribute.h */,
+				8435E38E1EE8266A0069B33B /* MASViewAttribute.m */,
+				8435E38F1EE8266A0069B33B /* MASViewConstraint.h */,
+				8435E3901EE8266A0069B33B /* MASViewConstraint.m */,
+				8435E3911EE8266A0069B33B /* NSArray+MASAdditions.h */,
+				8435E3921EE8266A0069B33B /* NSArray+MASAdditions.m */,
+				8435E3931EE8266A0069B33B /* NSArray+MASShorthandAdditions.h */,
+				8435E3941EE8266A0069B33B /* NSLayoutConstraint+MASDebugAdditions.h */,
+				8435E3951EE8266A0069B33B /* NSLayoutConstraint+MASDebugAdditions.m */,
+				8435E3961EE8266A0069B33B /* View+MASAdditions.h */,
+				8435E3971EE8266A0069B33B /* View+MASAdditions.m */,
+				8435E3981EE8266A0069B33B /* View+MASShorthandAdditions.h */,
+				8435E3991EE8266A0069B33B /* ViewController+MASAdditions.h */,
+				8435E39A1EE8266A0069B33B /* ViewController+MASAdditions.m */,
+			);
+			name = Masonry;
+			sourceTree = "<group>";
+		};
+		8435E3A61EE8276A0069B33B /* Views & Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8435E3B01EE82EBB0069B33B /* Cells */,
+				8435E3A91EE82D890069B33B /* Authorization */,
+				8435E3A81EE827DD0069B33B /* ADBViewManager.h */,
+				8435E3631EE818810069B33B /* AppDelegate.h */,
+				8435E3641EE818810069B33B /* AppDelegate.m */,
+				8435E3661EE818810069B33B /* ViewController.h */,
+				8435E3671EE818810069B33B /* ViewController.m */,
+			);
+			name = "Views & Controllers";
+			sourceTree = "<group>";
+		};
+		8435E3A91EE82D890069B33B /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				8435E3AD1EE82E310069B33B /* ADBFaceBookViewController.h */,
+				8435E3AE1EE82E310069B33B /* ADBFaceBookViewController.m */,
+				8435E3AA1EE82DDE0069B33B /* VKVMainViewController.h */,
+				8435E3AB1EE82DDE0069B33B /* VKVMainViewController.m */,
+			);
+			name = Authorization;
+			sourceTree = "<group>";
+		};
+		8435E3B01EE82EBB0069B33B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8435E3B11EE82ECD0069B33B /* ADBCell.h */,
+				8435E3B21EE82ECD0069B33B /* ADBCell.m */,
+				8435E3B31EE82ECD0069B33B /* ADBImage.h */,
+				8435E3B41EE82ECD0069B33B /* ADBImage.m */,
+				8435E3B81EE82F750069B33B /* DetailInformation.h */,
+				8435E3B91EE82F750069B33B /* DetailInformation.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		8435E5C31EE830630069B33B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8435E5C61EE8307F0069B33B /* Contacts */,
+				8435E5C51EE830720069B33B /* Data */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8435E5C51EE830720069B33B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8435E5E11EE8321A0069B33B /* mock.json */,
+				8435E5CD1EE830E60069B33B /* ADBDataBaseDriver.h */,
+				8435E5DA1EE831D80069B33B /* Facebook */,
+				8435E5D91EE831D00069B33B /* VK */,
+				8435E5D51EE831750069B33B /* Apple AB */,
+				8435E5CE1EE8312E0069B33B /* JSON */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		8435E5C61EE8307F0069B33B /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				8435E5C71EE830B00069B33B /* ADBContact.h */,
+				8435E5C81EE830B00069B33B /* ADBContact.m */,
+				8435E5CA1EE830B70069B33B /* ADBContactList.h */,
+				8435E5CB1EE830B70069B33B /* ADBContactList.m */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		8435E5CE1EE8312E0069B33B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				8435E5CF1EE8315C0069B33B /* ADBJsonDataBase.h */,
+				8435E5D01EE8315C0069B33B /* ADBJsonDataBase.m */,
+				8435E5D21EE831680069B33B /* ADBPathFileJsonDataBase.h */,
+				8435E5D31EE831680069B33B /* ADBPathFileJsonDataBase.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		8435E5D51EE831750069B33B /* Apple AB */ = {
+			isa = PBXGroup;
+			children = (
+				8435E5D61EE831990069B33B /* ADBAddressBookDataBase.h */,
+				8435E5D71EE831990069B33B /* ADBAddressBookDataBase.m */,
+			);
+			name = "Apple AB";
+			sourceTree = "<group>";
+		};
+		8435E5D91EE831D00069B33B /* VK */ = {
+			isa = PBXGroup;
+			children = (
+				8435E5DB1EE831F60069B33B /* ADBVkontakteDataBase.h */,
+				8435E5DC1EE831F60069B33B /* ADBVkontakteDataBase.m */,
+			);
+			name = VK;
+			sourceTree = "<group>";
+		};
+		8435E5DA1EE831D80069B33B /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				8435E5DE1EE832090069B33B /* ADBFacebookDataBase.h */,
+				8435E5DF1EE832090069B33B /* ADBFacebookDataBase.m */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8435E35C1EE818810069B33B /* AddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8435E3741EE818810069B33B /* Build configuration list for PBXNativeTarget "AddressBook" */;
+			buildPhases = (
+				8435E3591EE818810069B33B /* Sources */,
+				8435E35A1EE818810069B33B /* Frameworks */,
+				8435E35B1EE818810069B33B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressBook;
+			productName = AddressBook;
+			productReference = 8435E35D1EE818810069B33B /* AddressBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8435E3551EE818810069B33B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ilya;
+				TargetAttributes = {
+					8435E35C1EE818810069B33B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8435E3581EE818810069B33B /* Build configuration list for PBXProject "AddressBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8435E3541EE818810069B33B;
+			productRefGroup = 8435E35E1EE818810069B33B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8435E35C1EE818810069B33B /* AddressBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8435E35B1EE818810069B33B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8435E5E21EE8321A0069B33B /* mock.json in Resources */,
+				8435E3701EE818810069B33B /* LaunchScreen.storyboard in Resources */,
+				8435E36D1EE818810069B33B /* Assets.xcassets in Resources */,
+				8435E36B1EE818810069B33B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8435E3591EE818810069B33B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8435E5C91EE830B00069B33B /* ADBContact.m in Sources */,
+				8435E5CC1EE830B70069B33B /* ADBContactList.m in Sources */,
+				8435E3A21EE8266A0069B33B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				8435E3A01EE8266A0069B33B /* MASViewConstraint.m in Sources */,
+				8435E5D41EE831680069B33B /* ADBPathFileJsonDataBase.m in Sources */,
+				8435E3B61EE82ECD0069B33B /* ADBImage.m in Sources */,
+				8435E39B1EE8266A0069B33B /* MASCompositeConstraint.m in Sources */,
+				8435E5D11EE8315C0069B33B /* ADBJsonDataBase.m in Sources */,
+				8435E3A11EE8266A0069B33B /* NSArray+MASAdditions.m in Sources */,
+				8435E3681EE818810069B33B /* ViewController.m in Sources */,
+				8435E3651EE818810069B33B /* AppDelegate.m in Sources */,
+				8435E5E01EE832090069B33B /* ADBFacebookDataBase.m in Sources */,
+				8435E39E1EE8266A0069B33B /* MASLayoutConstraint.m in Sources */,
+				8435E5DD1EE831F60069B33B /* ADBVkontakteDataBase.m in Sources */,
+				8435E3621EE818810069B33B /* main.m in Sources */,
+				8435E3A41EE8266A0069B33B /* ViewController+MASAdditions.m in Sources */,
+				8435E3AF1EE82E310069B33B /* ADBFaceBookViewController.m in Sources */,
+				8435E3B51EE82ECD0069B33B /* ADBCell.m in Sources */,
+				8435E3AC1EE82DDE0069B33B /* VKVMainViewController.m in Sources */,
+				8435E5D81EE831990069B33B /* ADBAddressBookDataBase.m in Sources */,
+				8435E3A31EE8266A0069B33B /* View+MASAdditions.m in Sources */,
+				8435E39F1EE8266A0069B33B /* MASViewAttribute.m in Sources */,
+				8435E39C1EE8266A0069B33B /* MASConstraint.m in Sources */,
+				8435E39D1EE8266A0069B33B /* MASConstraintMaker.m in Sources */,
+				8435E3BA1EE82F750069B33B /* DetailInformation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8435E3691EE818810069B33B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8435E36A1EE818810069B33B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8435E36E1EE818810069B33B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8435E36F1EE818810069B33B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8435E3721EE818810069B33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8435E3731EE818810069B33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8435E3751EE818810069B33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SBT.AddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8435E3761EE818810069B33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SBT.AddressBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8435E3581EE818810069B33B /* Build configuration list for PBXProject "AddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8435E3721EE818810069B33B /* Debug */,
+				8435E3731EE818810069B33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8435E3741EE818810069B33B /* Build configuration list for PBXNativeTarget "AddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8435E3751EE818810069B33B /* Debug */,
+				8435E3761EE818810069B33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8435E3551EE818810069B33B /* Project object */;
+}

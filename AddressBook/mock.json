@@ -1,0 +1,22 @@
+{
+	"response" : [
+	 {
+		"name" : "John",
+		"surname" : "Smith",
+		"phone" : "8(985)-123-45-67",
+		"email" : "me@mail.ru"
+	 },
+	 {
+		"name" : "Andrew",
+		"surname" : "Dworkeen",
+		"phone" : "8(666)-666-13-13",
+		"email" : "privilege@check.com"
+	 },
+	 {
+		"name" : "Tonald",
+		"surname" : "Drump",
+		"phone" : "8(222)-431-00-21",
+		"email" : "hugegreat@wall.us"
+	 }
+	]
+}
